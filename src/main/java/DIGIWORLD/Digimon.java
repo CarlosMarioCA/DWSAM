@@ -1,10 +1,11 @@
 package DIGIWORLD;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  *
- * @author carlo
+ * @author SAM
  */
 public class Digimon {
     
@@ -25,25 +26,35 @@ public class Digimon {
     //CONSTRUCTORS
     
     //Nacimiento por digitama con tamer.
-    public Digimon(String name, Tamer tamer) {
-        this.name = name;
-        this.level = "baby1";
-        this.scream = "zzz";
-        this.health = 10;
-        this.power = 10;
-        this.attack = 2;
-        this.defense = 2;
+    public Digimon(Tamer tamer) {
+        Digimon birth = DigiEgg.randomEgg();
+        this.name = birth.getName();
+        this.level = birth.getLevel();
+        this.scream = birth.getScream();
+        this.health = birth.getHealth();
+        this.power = birth.getPower();
+        this.attack = birth.getAttack();
+        this.defense = birth.getDefense();
         this.exp = 0;
         this.data = 128;
         this.tamer = tamer;
         this.digivice = tamer.getDigivice();
     }
     
-    public Digimon(){
-        this.scream = "Waaar";      
+    //Creación para BD
+    public Digimon(String name, String level, String type, String scream, int health, int power, int attack, int defense, double exp, double data) {
+        this.name = name;
+        this.level = level;
+        this.type = type;
+        this.scream = scream;
+        this.health = health;
+        this.power = power;
+        this.attack = attack;
+        this.defense = defense;
+        this.exp = exp;
+        this.data = data;
+        DigiList.add(this);
     }
-    
-    
     
     //FUNCTIONS
     

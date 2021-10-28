@@ -13,7 +13,9 @@ public class Tamer {
     private Digimon digimon;
     private Digivice digivice;
     private Emblem emblema;
-    public static ArrayList<Digimon> poblation = new ArrayList<>();
+    public ArrayList<Digimon> historial = new ArrayList<>();
+    public static ArrayList<Tamer> poblation = new ArrayList<>();
+    
     
     
     //GETTERS & SETTERS
@@ -55,16 +57,7 @@ public class Tamer {
 
     public void setEmblema(Emblem emblema) {
         this.emblema = emblema;
-    }
-
-    public static ArrayList<Digimon> getPoblation() {
-        return poblation;
-    }
-
-    public static void setPoblation(ArrayList<Digimon> poblation) {
-        Tamer.poblation = poblation;
-    }
-    
+    }    
     
     
 }
