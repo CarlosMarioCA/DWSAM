@@ -8,9 +8,9 @@ DIGIWORLD/DigiEgg.java
  DIGIWORLD.DigiEgg
 DIGIWORLD/Digivice.java
  DIGIWORLD.Digivice
-DIGIWORLD/UIMain/Start.java
- DIGIWORLD.UIMain.Start
 DIGIWORLD/Digimon.java
  DIGIWORLD.Digimon
 DIGIWORLD/Main.java
  DIGIWORLD.Main
+UI/Start.java
+ UI.Start

@@ -3,7 +3,7 @@ package DIGIWORLD;
 import DIGIWORLD.Digimon;
 import DIGIWORLD.Land;
 import DIGIWORLD.Tamer;
-import DIGIWORLD.UIMain.Start;
+import UI.Start;
 
 import java.util.Map;
 import javafx.application.Application;
@@ -46,14 +46,13 @@ public class Main extends Application {
         inicio = new Start();
         window = stage;
         window.setTitle("DIGIWORLD v 1.0");
-        window.setScene(inicio.getEscena());
+        window.setScene(inicio.setScena());
         window.show();
 
     }
 
     public static void main(String[] args) {
 
-        Land file = new Land();
         chargingDW();
         Tamer sam = new Tamer();
         Tamer lervi = new Tamer();
@@ -74,15 +73,33 @@ public class Main extends Application {
     
     static void chargingDW(){
         Land fileIsland = new Land();
-        Digimon b1 = new Digimon("Botamon","baby 1","none","Buah",10,10,2,2,0,0);
-        Digimon b2 = new Digimon("Bombmon","baby 1","none","Bru",10,10,2,2,0,0);
-        Digimon b3 = new Digimon("Bommon","baby 1","none","Bomm", 10, 10,2,2,0,0);
-        Digimon b4 = new Digimon("Bubbmon","baby 1","none","Bubba", 10, 10,2,2,0,0);
-        Digimon b5 = new Digimon("Chibickmon","baby 1","none","Chick", 10, 10,2,2,0,0);
-        Digimon b6 = new Digimon("Chicomon","baby 1","none","Chic", 10, 10,2,2,0,0);
-        Digimon b7 = new Digimon("Cocomon","baby 1","none","Coco", 10, 10,2,2,0,0);
-        Digimon b8 = new Digimon("Cotsumon","baby 1","none","Cot", 10, 10,2,2,0,0);
-        Digimon b9 = new Digimon("Curimon","baby 1","none","Cuh", 10, 10,2,2,0,0);
+        
+        //Digimons Baby 1
+        Digimon d1 = new Digimon("Botamon","baby 1","none","Buah",10,10,2,2,0,0);
+        Digimon d2 = new Digimon("Bombmon","baby 1","none","Bru",10,10,2,2,0,0);
+        Digimon d3 = new Digimon("Bommon","baby 1","none","Bomm",10,10,2,2,0,0);
+        Digimon d4 = new Digimon("Bubbmon","baby 1","none","Bubba",10,10,2,2,0,0);
+        Digimon d5 = new Digimon("Chibickmon","baby 1","none","Chick",10,10,2,2,0,0);
+        Digimon d6 = new Digimon("Chicomon","baby 1","none","Chic",10,10,2,2,0,0);
+        Digimon d7 = new Digimon("Cocomon","baby 1","none","Coco",10,10,2,2,0,0);
+        Digimon d8 = new Digimon("Cotsumon","baby 1","none","Cot",10,10,2,2,0,0);
+        Digimon d9 = new Digimon("Curimon","baby 1","none","Cuh",10,10,2,2,0,0);
+        Digimon d10 = new Digimon("Yuumon","baby1","none","Zi",10,10,2,2,0,0);
+        
+        //Digimon Baby 2
+        Digimon d11 = new Digimon("Botamon","baby 1","none","Buah",10,10,2,2,0,0);
+        Digimon d12 = new Digimon("Bombmon","baby 1","none","Bru",10,10,2,2,0,0);
+        Digimon d13 = new Digimon("Bommon","baby 1","none","Bomm",10,10,2,2,0,0);
+        Digimon d14 = new Digimon("Bubbmon","baby 1","none","Bubba",10,10,2,2,0,0);
+        Digimon d15 = new Digimon("Chibickmon","baby 1","none","Chick",10,10,2,2,0,0);
+        Digimon d16 = new Digimon("Chicomon","baby 1","none","Chic",10,10,2,2,0,0);
+        Digimon d17 = new Digimon("Cocomon","baby 1","none","Coco",10,10,2,2,0,0);
+        Digimon d18 = new Digimon("Cotsumon","baby 1","none","Cot",10,10,2,2,0,0);
+        Digimon d19 = new Digimon("Curimon","baby 1","none","Cuh",10,10,2,2,0,0);
+        Digimon d20 = new Digimon("Yuumon","baby1","none","Zi",10,10,2,2,0,0);
+        
+        
+        
     }
 
 }
