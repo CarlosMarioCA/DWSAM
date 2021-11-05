@@ -1,4 +1,4 @@
-package UI;
+package ui;
 
 import javafx.geometry.Pos;
 import javafx.scene.*;
@@ -33,7 +33,6 @@ public class Start {
 
         //Se ingresan cosas a Escena.
         mark.setCenter(g1);
-        mark.setBottom(ma1);
         this.scena = new Scene(mark, 1500, 800);
         return scena;
 

@@ -1,6 +1,6 @@
-package DIGIWORLD;
+package dw;
 
-import static DIGIWORLD.Digimon.DigiList;
+import static dw.Digimon.DigiList;
 import java.util.ArrayList;
 import java.util.Iterator;
 

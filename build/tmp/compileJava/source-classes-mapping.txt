@@ -1,16 +1,16 @@
-DIGIWORLD/Land.java
- DIGIWORLD.Land
-DIGIWORLD/Emblem.java
- DIGIWORLD.Emblem
-DIGIWORLD/Tamer.java
- DIGIWORLD.Tamer
-DIGIWORLD/DigiEgg.java
- DIGIWORLD.DigiEgg
-DIGIWORLD/Digivice.java
- DIGIWORLD.Digivice
-DIGIWORLD/Digimon.java
- DIGIWORLD.Digimon
-DIGIWORLD/Main.java
- DIGIWORLD.Main
-UI/Start.java
- UI.Start
+dw/Digivice.java
+ dw.Digivice
+dw/Land.java
+ dw.Land
+dw/Emblem.java
+ dw.Emblem
+ui/Start.java
+ ui.Start
+dw/Tamer.java
+ dw.Tamer
+dw/DigiEgg.java
+ dw.DigiEgg
+dw/Digimon.java
+ dw.Digimon
+dw/Main.java
+ dw.Main
